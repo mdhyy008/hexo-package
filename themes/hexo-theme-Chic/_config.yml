@@ -1,0 +1,133 @@
+# html lang
+language: en
+
+# Header
+navname: 某某的Blog
+
+# navigatior items
+nav:
+  帖子: /archives
+  标签: /tag
+  友链: /友链
+  关于: /关于
+
+# favicon
+favicon: /favicon.ico
+
+# Profile
+nickname: 某某
+
+### this variable is MarkDown form.
+description: 真正喜欢的人和事，都值得我们坚持。
+avatar: /image/avatar.jpeg
+
+# main menu navigation
+## links key words should not be changed.
+## Complete url after key words.
+## 这下边这些链接，取消注释就能用
+
+links:
+#  Blog: /blog/archives
+#  Category:
+#  Tags:
+#  Link:
+#  Resume:
+#  Publish:
+#  Trophy:
+#  Gallary:
+#  RSS:
+#  AliPay:
+  ZhiHu: http://www.zhihu.com/people/da-bai-88-33-67?utm_source=qq&utm_medium=social&utm_oi=1024857366851776512
+#  LinkedIn:
+#  FaceBook:
+#  Twitter:
+#  Skype:
+#  CodeSandBox:
+#  CodePen:
+#  Sketch:
+#  Gitlab:
+#  Dribble:
+#  Instagram:
+#  Reddit:
+#  YouTube:
+  QQ: http://wpa.qq.com/msgrd?v=3&uin=1904812793&site=qq&menu=yes
+#  Weibo:
+#  WeChat:
+  Github: https://github.com/dabai2017
+
+# how links show: you have 2 choice--text or icon.
+links_text_enable: false
+links_icon_enable: true
+
+# Post page
+## Post_meta
+post_meta_enable: true
+
+post_author_enable: true
+post_date_enable: true
+post_category_enable: false
+## Post copyright
+post_copyright_enable: false
+
+post_copyright_author_enable: true
+post_copyright_permalink_enable: false
+post_copyright_license_enable: false
+post_copyright_license_text: Copyright (c) 2019 <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> LICENSE
+post_copyright_slogan_enable: false
+post_copyright_slogan_text: Do you believe in <strong>DESTINY<strong>?
+## toc
+post_toc_enable: true
+
+# Page
+page_title_enable: true
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: MMMM D, YYYY
+time_format: H:mm:ss
+
+# stylesheets loaded in the <head>
+stylesheets:
+  - /css/style.css
+
+# scripts loaded in the end of the body
+scripts:
+  - /js/script.js
+  - /js/tocbot.min.js
+    # tscanlin/tocbot: Build a table of contents from headings in an HTML document.
+    # https://github.com/tscanlin/tocbot
+
+
+# plugin functions
+## Mathjax: Math Formula Support
+## https://www.mathjax.org
+mathjax:
+  enable: true
+  import: demand # global or demand
+  ## global: all pages will load mathjax,this will degrade performance and some grammers may be parsed wrong.
+  ## demand: Recommend option,if your post need fomula, you can declare 'mathjax: true' in Front-matter
+
+# Post wordcount display settings
+# Dependencies: https://github.com/willin/hexo-wordcount
+post_wordcount:
+  item_text: true
+  wordcount: true
+  min2read: true
+  
+  # Gitment
+# Introduction: https://imsun.net/posts/gitment-introduction/
+gitment:
+  enable: true
+  mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
+  count: true # Show comments count in post meta area
+  lazy: false # Comments lazy loading with a button
+  cleanly: false # Hide 'Powered by ...' on footer, and more
+  language: # Force language, or auto switch by theme
+  github_user: dabai2017
+  github_repo: https://github.com/dabai2017/my_hexo.git
+  client_id: 0cee626fe7a45ebed3cb
+  client_secret: dbe002a362ddb07172cc5afed951611b4d9fd0fd
+  proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
+  redirect_protocol: 
